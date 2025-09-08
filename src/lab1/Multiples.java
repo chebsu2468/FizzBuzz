@@ -1,9 +1,11 @@
 package lab1;
 
 public class Multiples {
-    public static int main(int n, int a, int b) {
-
-        return multiples(n, a, b);
+    public static void main(String[] arg) {
+        int n = 1000;
+        int a = 3;
+        int b = 5;
+        multiples(n, a, b);
     }
 
     public static int multiples(int n, int a, int b ) {
