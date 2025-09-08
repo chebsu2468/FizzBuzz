@@ -10,12 +10,12 @@ public class Multiples {
         int count = 0;
         for (int i= 0; i <= n; i++) {
             // Find out which numbers divide i.
-            boolean divisibleBy3 = n % a == 0;
-            boolean divisibleBy5 = n % b == 0;
+            boolean divisibleBy3 = i % a == 0;
+            boolean divisibleBy5 = i % b == 0;
 
             // Print our appropriate result.
             if (divisibleBy3 || divisibleBy5) {
-                System.out.println(n);
+                System.out.println(i);
                 count ++;
             }
 

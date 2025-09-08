@@ -37,7 +37,6 @@ class FizzBuzz {
     }
 
     public static int doFizzBuzz(int n) {
-        // Find out which numbers divide i.
         boolean divisibleBy3 = n % 3 == 0;
         boolean divisibleBy5 = n % 5 == 0;
 
@@ -50,9 +49,8 @@ class FizzBuzz {
             System.out.println("Buzz");
         } else {
             System.out.println(n);
-            n++;
         }
+        n++;
         return n;
     }
-
 }
