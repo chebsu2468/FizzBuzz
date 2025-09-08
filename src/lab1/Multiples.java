@@ -1,9 +1,9 @@
 package lab1;
 
 public class Multiples {
-    public static int main(int a, int b, int n) {
+    public static int main(int n, int a, int b) {
 
-        return multiples(1000, 3, 5);
+        return multiples(n, a, b);
     }
 
     public static int multiples(int n, int a, int b ) {

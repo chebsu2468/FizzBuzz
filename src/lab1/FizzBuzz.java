@@ -32,7 +32,7 @@ class FizzBuzz {
 
         int n = 1;
         while (n <= 100) {
-            doFizzBuzz(n);
+            n = doFizzBuzz(n);
         }
     }
 
