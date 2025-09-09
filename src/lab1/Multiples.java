@@ -25,6 +25,7 @@ public class Multiples {
         System.out.println(count);
         return count;
     }
+
     public static int multiples() {
         int n = 1000;
         int a = 3;
