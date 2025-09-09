@@ -17,7 +17,6 @@ public class Multiples {
 
             // Print our appropriate result.
             if (divisibleBy3 || divisibleBy5) {
-
                 count++;
             }
 
